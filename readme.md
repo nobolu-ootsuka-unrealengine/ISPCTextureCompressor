@@ -3,9 +3,12 @@
 
 BC6H、BC7、ETC1、ASTCおよびBC1 / BC3の最先端のテクスチャ圧縮。
 
-[ISPCコンパイラ]（https://ispc.github.io/）を使用します。
+[ISPCコンパイラ]（　https://ispc.github.io/
+を使用します。
 
-[Fast ISPC Texture Compressor]（https://software.intel.com/en-us/articles/fast-ispc-texture-compressor-update）の記事を参照してください。
+[Fast ISPC Texture Compressor]（
+https://software.intel.com/en-us/articles/fast-ispc-texture-compressor-update
+）の記事を参照してください。
 Intel Developer Zone。
 
 サポートされている圧縮形式：
@@ -25,7 +28,9 @@ Intel Developer Zone。
 
 * Mac OS X：
 * Xcodeプロジェクトファイルは、コンプレッサーにのみ含まれています。例ではありません。
-* ISPCコンパイラバージョン[1.8.2 build]（https://sf.net/projects/ispcmirror）を入手し、コンパイラ実行ファイルを `ISPC Texture Compressor / ispc_osx`に置く必要があります。
+* ISPCコンパイラバージョン[1.8.2 build]（
+https://sf.net/projects/ispcmirror
+）を入手し、コンパイラ実行ファイルを `ISPC Texture Compressor / ispc_osx`に置く必要があります。
 * Xcode 7.3でテストされた `ISPC Texture Compressor / ispc_texcomp.xcodeproj`を使用してください。
 * OS Xの最小配備バージョンを10.9に設定しました。
 * dylibのインストール名は `@executable_path /../Frameworks/ $（EXECUTABLE_PATH）`に設定されています
